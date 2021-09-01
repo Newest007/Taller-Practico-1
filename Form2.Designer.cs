@@ -53,6 +53,7 @@ namespace Taller_Practico_1
             this.ClientSize = new System.Drawing.Size(514, 302);
             this.Controls.Add(this.btnejercicio1);
             this.Name = "frmejercicio1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.ResumeLayout(false);
 

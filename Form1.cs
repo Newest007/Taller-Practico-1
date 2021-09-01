@@ -28,5 +28,10 @@ namespace Taller_Practico_1
         {
             
         }
+
+        private void btnsalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
