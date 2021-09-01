@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Taller_Practico_1
 {
-    public partial class Form1 : Form
+    public partial class frmejercicio1 : Form
     {
-        public Form1()
+        public frmejercicio1()
         {
             InitializeComponent();
-        }
-
-        private void btnejercicio1_Click(object sender, EventArgs e)
-        {
-            Form formejercicio1 = new frmejercicio1();
-            this.Visible = false;
-            formejercicio1.Visible = true;
         }
     }
 }
