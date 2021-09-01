@@ -171,11 +171,11 @@ namespace Taller_Practico_1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(150, 21);
+            this.label1.Location = new System.Drawing.Point(195, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(275, 28);
+            this.label1.Size = new System.Drawing.Size(171, 28);
             this.label1.TabIndex = 15;
-            this.label1.Text = "Problema 3, Formula Cuadrática";
+            this.label1.Text = "Formula Cuadrática";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // frmejercicio1
@@ -198,7 +198,7 @@ namespace Taller_Practico_1
             this.Controls.Add(this.btnregresar);
             this.Name = "frmejercicio1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
+            this.Text = "Ejercicio 1";
             this.Load += new System.EventHandler(this.frmejercicio1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
