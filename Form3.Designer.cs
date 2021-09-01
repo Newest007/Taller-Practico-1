@@ -1,7 +1,7 @@
 ﻿
 namespace Taller_Practico_1
 {
-    partial class frmejercicio1
+    partial class frmejercicio2
     {
         /// <summary>
         /// Required designer variable.
@@ -38,23 +38,23 @@ namespace Taller_Practico_1
             this.btnregresar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnregresar.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnregresar.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnregresar.Location = new System.Drawing.Point(377, 247);
+            this.btnregresar.Location = new System.Drawing.Point(426, 288);
             this.btnregresar.Name = "btnregresar";
             this.btnregresar.Size = new System.Drawing.Size(125, 43);
-            this.btnregresar.TabIndex = 14;
+            this.btnregresar.TabIndex = 15;
             this.btnregresar.Text = "Regresar";
             this.btnregresar.UseVisualStyleBackColor = false;
-            this.btnregresar.Click += new System.EventHandler(this.btnejercicio1_Click);
+            this.btnregresar.Click += new System.EventHandler(this.btnregresar_Click);
             // 
-            // frmejercicio1
+            // frmejercicio2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(514, 302);
+            this.ClientSize = new System.Drawing.Size(563, 343);
             this.Controls.Add(this.btnregresar);
-            this.Name = "frmejercicio1";
+            this.Name = "frmejercicio2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
+            this.Text = "Form3";
             this.ResumeLayout(false);
 
         }

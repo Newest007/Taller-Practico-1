@@ -86,6 +86,7 @@ namespace Taller_Practico_1
             this.btnejercicio3.TabIndex = 14;
             this.btnejercicio3.Text = "Ejercicio 3";
             this.btnejercicio3.UseVisualStyleBackColor = false;
+            this.btnejercicio3.Click += new System.EventHandler(this.btnejercicio3_Click);
             // 
             // btnejercicio2
             // 
@@ -113,6 +114,7 @@ namespace Taller_Practico_1
             this.btnejercicio4.TabIndex = 16;
             this.btnejercicio4.Text = "Ejercicio 4";
             this.btnejercicio4.UseVisualStyleBackColor = false;
+            this.btnejercicio4.Click += new System.EventHandler(this.btnejercicio4_Click);
             // 
             // label3
             // 
