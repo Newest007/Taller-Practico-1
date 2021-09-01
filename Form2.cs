@@ -23,5 +23,22 @@ namespace Taller_Practico_1
             this.Close();
             frmprincipal.Visible = true;
         }
+
+        private void txtA_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmejercicio1_Load(object sender, EventArgs e)
+        {
+            txtresp1.Enabled = false;
+            txtresp2.Enabled = false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+
+        }
     }
 }
