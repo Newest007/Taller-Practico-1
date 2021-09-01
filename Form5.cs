@@ -23,5 +23,21 @@ namespace Taller_Practico_1
             this.Close();
             frmprincipal.Visible = true;
         }
+
+        private void frmejercicio4_Load(object sender, EventArgs e)
+        {
+            cmbcargo1.Items.Clear();
+            cmbcargo2.Items.Clear();
+            cmbcargo3.Items.Clear();
+            cmbcargo1.Items.Add("Gerente");
+            cmbcargo1.Items.Add("Asistente");
+            cmbcargo1.Items.Add("Secretaria/o");
+            cmbcargo2.Items.Add("Gerente");
+            cmbcargo2.Items.Add("Asistente");
+            cmbcargo2.Items.Add("Secretaria/o");
+            cmbcargo3.Items.Add("Gerente");
+            cmbcargo3.Items.Add("Asistente");
+            cmbcargo3.Items.Add("Secretaria/o");
+        }
     }
 }
