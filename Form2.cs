@@ -16,5 +16,12 @@ namespace Taller_Practico_1
         {
             InitializeComponent();
         }
+
+        private void btnejercicio1_Click(object sender, EventArgs e)
+        {
+            Form frmprincipal = new frminicial();
+            this.Close();
+            frmprincipal.Visible = true;
+        }
     }
 }

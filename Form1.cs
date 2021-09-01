@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Taller_Practico_1
 {
-    public partial class Form1 : Form
+    public partial class frminicial : Form
     {
-        public Form1()
+        public frminicial()
         {
             InitializeComponent();
         }
@@ -22,6 +22,11 @@ namespace Taller_Practico_1
             Form formejercicio1 = new frmejercicio1();
             this.Visible = false;
             formejercicio1.Visible = true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

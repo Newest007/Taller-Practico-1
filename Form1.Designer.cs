@@ -1,7 +1,7 @@
 ﻿
 namespace Taller_Practico_1
 {
-    partial class Form1
+    partial class frminicial
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -98,6 +98,7 @@ namespace Taller_Practico_1
             this.button2.TabIndex = 15;
             this.button2.Text = "Ejercicio 2";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -132,7 +133,7 @@ namespace Taller_Practico_1
             this.label4.TabIndex = 18;
             this.label4.Text = "Luís Pablo Velasco Flores";
             // 
-            // Form1
+            // frminicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -146,7 +147,7 @@ namespace Taller_Practico_1
             this.Controls.Add(this.btnejercicio1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "frminicial";
             this.Text = "Taller Practico 1";
             this.ResumeLayout(false);
             this.PerformLayout();
