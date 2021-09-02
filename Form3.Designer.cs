@@ -54,7 +54,7 @@ namespace Taller_Practico_1
             this.Controls.Add(this.btnregresar);
             this.Name = "frmejercicio2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form3";
+            this.Text = "Ejercicio 2";
             this.ResumeLayout(false);
 
         }

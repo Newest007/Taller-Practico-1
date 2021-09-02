@@ -130,11 +130,11 @@ namespace Taller_Practico_1
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(190, 122);
+            this.label4.Location = new System.Drawing.Point(147, 123);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(174, 23);
+            this.label4.Size = new System.Drawing.Size(256, 23);
             this.label4.TabIndex = 18;
-            this.label4.Text = "Luís Pablo Velasco Flores";
+            this.label4.Text = "Luís Pablo Velasco Flores VF202313";
             // 
             // btnsalir
             // 
