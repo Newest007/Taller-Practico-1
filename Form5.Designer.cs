@@ -55,9 +55,9 @@ namespace Taller_Practico_1
             this.label10 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txthoras1 = new System.Windows.Forms.TextBox();
+            this.txthoras2 = new System.Windows.Forms.TextBox();
+            this.txthoras3 = new System.Windows.Forms.TextBox();
             this.btncalcular = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -90,7 +90,7 @@ namespace Taller_Practico_1
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txthoras1);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.cmbcargo1);
@@ -119,6 +119,7 @@ namespace Taller_Practico_1
             // cmbcargo1
             // 
             this.cmbcargo1.FormattingEnabled = true;
+            this.cmbcargo1.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.cmbcargo1.Location = new System.Drawing.Point(445, 29);
             this.cmbcargo1.Name = "cmbcargo1";
             this.cmbcargo1.Size = new System.Drawing.Size(121, 29);
@@ -160,7 +161,7 @@ namespace Taller_Practico_1
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Controls.Add(this.txthoras2);
             this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.cmbcargo2);
             this.groupBox2.Controls.Add(this.label6);
@@ -230,7 +231,7 @@ namespace Taller_Practico_1
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.textBox3);
+            this.groupBox3.Controls.Add(this.txthoras3);
             this.groupBox3.Controls.Add(this.label13);
             this.groupBox3.Controls.Add(this.cmbcargo3);
             this.groupBox3.Controls.Add(this.label7);
@@ -328,26 +329,26 @@ namespace Taller_Practico_1
             this.label13.TabIndex = 34;
             this.label13.Text = "Horas trabajadas en el mes";
             // 
-            // textBox1
+            // txthoras1
             // 
-            this.textBox1.Location = new System.Drawing.Point(761, 29);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(96, 29);
-            this.textBox1.TabIndex = 33;
+            this.txthoras1.Location = new System.Drawing.Point(761, 29);
+            this.txthoras1.Name = "txthoras1";
+            this.txthoras1.Size = new System.Drawing.Size(96, 29);
+            this.txthoras1.TabIndex = 33;
             // 
-            // textBox2
+            // txthoras2
             // 
-            this.textBox2.Location = new System.Drawing.Point(761, 29);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(96, 29);
-            this.textBox2.TabIndex = 35;
+            this.txthoras2.Location = new System.Drawing.Point(761, 29);
+            this.txthoras2.Name = "txthoras2";
+            this.txthoras2.Size = new System.Drawing.Size(96, 29);
+            this.txthoras2.TabIndex = 35;
             // 
-            // textBox3
+            // txthoras3
             // 
-            this.textBox3.Location = new System.Drawing.Point(761, 29);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(96, 29);
-            this.textBox3.TabIndex = 35;
+            this.txthoras3.Location = new System.Drawing.Point(761, 29);
+            this.txthoras3.Name = "txthoras3";
+            this.txthoras3.Size = new System.Drawing.Size(96, 29);
+            this.txthoras3.TabIndex = 35;
             // 
             // btncalcular
             // 
@@ -361,6 +362,7 @@ namespace Taller_Practico_1
             this.btncalcular.TabIndex = 33;
             this.btncalcular.Text = "Calcular";
             this.btncalcular.UseVisualStyleBackColor = false;
+            this.btncalcular.Click += new System.EventHandler(this.btncalcular_Click);
             // 
             // frmejercicio4
             // 
@@ -413,11 +415,11 @@ namespace Taller_Practico_1
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtnombre3;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txthoras1;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txthoras2;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txthoras3;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button btncalcular;
     }
