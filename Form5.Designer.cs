@@ -32,6 +32,8 @@ namespace Taller_Practico_1
             this.btnregresar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txthoras1 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.cmbcargo1 = new System.Windows.Forms.ComboBox();
             this.txtapellido1 = new System.Windows.Forms.TextBox();
@@ -39,6 +41,8 @@ namespace Taller_Practico_1
             this.txtnombre1 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txthoras2 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.cmbcargo2 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txtapellido2 = new System.Windows.Forms.TextBox();
@@ -46,20 +50,15 @@ namespace Taller_Practico_1
             this.txtnombre2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.txthoras3 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
             this.cmbcargo3 = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtapellido3 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txtnombre3 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.txthoras1 = new System.Windows.Forms.TextBox();
-            this.txthoras2 = new System.Windows.Forms.TextBox();
-            this.txthoras3 = new System.Windows.Forms.TextBox();
             this.btncalcular = new System.Windows.Forms.Button();
-            this.txtrespuesta = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -106,6 +105,23 @@ namespace Taller_Practico_1
             this.groupBox1.TabIndex = 30;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Primer Empleado";
+            // 
+            // txthoras1
+            // 
+            this.txthoras1.Location = new System.Drawing.Point(761, 29);
+            this.txthoras1.Name = "txthoras1";
+            this.txthoras1.Size = new System.Drawing.Size(96, 29);
+            this.txthoras1.TabIndex = 33;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(580, 33);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(175, 21);
+            this.label10.TabIndex = 32;
+            this.label10.Text = "Horas trabajadas en el mes";
             // 
             // label5
             // 
@@ -178,6 +194,23 @@ namespace Taller_Practico_1
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Segundo Empleado";
             // 
+            // txthoras2
+            // 
+            this.txthoras2.Location = new System.Drawing.Point(761, 29);
+            this.txthoras2.Name = "txthoras2";
+            this.txthoras2.Size = new System.Drawing.Size(96, 29);
+            this.txthoras2.TabIndex = 35;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(580, 33);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(175, 21);
+            this.label12.TabIndex = 34;
+            this.label12.Text = "Horas trabajadas en el mes";
+            // 
             // cmbcargo2
             // 
             this.cmbcargo2.FormattingEnabled = true;
@@ -248,6 +281,23 @@ namespace Taller_Practico_1
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Tercer Empleado";
             // 
+            // txthoras3
+            // 
+            this.txthoras3.Location = new System.Drawing.Point(761, 29);
+            this.txthoras3.Name = "txthoras3";
+            this.txthoras3.Size = new System.Drawing.Size(96, 29);
+            this.txthoras3.TabIndex = 35;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(580, 33);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(175, 21);
+            this.label13.TabIndex = 34;
+            this.label13.Text = "Horas trabajadas en el mes";
+            // 
             // cmbcargo3
             // 
             this.cmbcargo3.FormattingEnabled = true;
@@ -300,57 +350,6 @@ namespace Taller_Practico_1
             this.label9.TabIndex = 25;
             this.label9.Text = "Nombre";
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(580, 33);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(175, 21);
-            this.label10.TabIndex = 32;
-            this.label10.Text = "Horas trabajadas en el mes";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(580, 33);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(175, 21);
-            this.label12.TabIndex = 34;
-            this.label12.Text = "Horas trabajadas en el mes";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(580, 33);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(175, 21);
-            this.label13.TabIndex = 34;
-            this.label13.Text = "Horas trabajadas en el mes";
-            // 
-            // txthoras1
-            // 
-            this.txthoras1.Location = new System.Drawing.Point(761, 29);
-            this.txthoras1.Name = "txthoras1";
-            this.txthoras1.Size = new System.Drawing.Size(96, 29);
-            this.txthoras1.TabIndex = 33;
-            // 
-            // txthoras2
-            // 
-            this.txthoras2.Location = new System.Drawing.Point(761, 29);
-            this.txthoras2.Name = "txthoras2";
-            this.txthoras2.Size = new System.Drawing.Size(96, 29);
-            this.txthoras2.TabIndex = 35;
-            // 
-            // txthoras3
-            // 
-            this.txthoras3.Location = new System.Drawing.Point(761, 29);
-            this.txthoras3.Name = "txthoras3";
-            this.txthoras3.Size = new System.Drawing.Size(96, 29);
-            this.txthoras3.TabIndex = 35;
-            // 
             // btncalcular
             // 
             this.btncalcular.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(34)))), ((int)(((byte)(39)))));
@@ -365,20 +364,11 @@ namespace Taller_Practico_1
             this.btncalcular.UseVisualStyleBackColor = false;
             this.btncalcular.Click += new System.EventHandler(this.btncalcular_Click);
             // 
-            // txtrespuesta
-            // 
-            this.txtrespuesta.Location = new System.Drawing.Point(690, 35);
-            this.txtrespuesta.Name = "txtrespuesta";
-            this.txtrespuesta.Size = new System.Drawing.Size(115, 20);
-            this.txtrespuesta.TabIndex = 34;
-            this.txtrespuesta.Visible = false;
-            // 
             // frmejercicio4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(931, 426);
-            this.Controls.Add(this.txtrespuesta);
             this.Controls.Add(this.btncalcular);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -432,6 +422,5 @@ namespace Taller_Practico_1
         private System.Windows.Forms.TextBox txthoras3;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button btncalcular;
-        private System.Windows.Forms.TextBox txtrespuesta;
     }
 }
