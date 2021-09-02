@@ -47,7 +47,7 @@ namespace Taller_Practico_1
         {
 
             int horast1, horast2, horast3;
-            double sueldo1, sueldo2, sueldo3;
+            double sueldo1, sueldot1, s1ISS, s1AFP, s1RENTA, sueldo2, sueldot2, sueldo3, sueldot3;
             string cargo1, cargo2, cargo3;
 
             horast1 = Convert.ToInt32(txthoras1.Text);
@@ -60,6 +60,7 @@ namespace Taller_Practico_1
             cargo3 = Convert.ToString(cmbcargo3.Text);
 
 
+            //Restricción si las horas son negativas o cero
             if (horast1 <= 0 || horast2 <= 0 || horast3 <= 0)
             {
                 MessageBox.Show("Las horas no pueden ser cero o negativas, intenta de nuevo!", "Cuidado!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -71,6 +72,8 @@ namespace Taller_Practico_1
                 //Secretaria 3%
                 //Otros 2%
 
+
+            //Si el orden de los cargos es 1.Gerente, 2.Asistente, 3.Secretaria/0
             if(cargo1 == "Gerente" && cargo2 == "Asistente" && cargo3 == "Secretaria/o")
             {
 
@@ -78,12 +81,157 @@ namespace Taller_Practico_1
 
             }
 
-            if( horast1 <= 160)
+            //Operaciones para calcular el sueldo del empleado 1
+
+            //Gerente
+            if ( cargo1 == "Gerente")
             {
 
+                if(horast1 > 160)
+                {
+                    sueldo1 = horast1 - 160;
+                    sueldot1 = 160 * 9.75 + (sueldo1* 11.50);
+                    sueldot1 = (sueldot1 * 0.1) + sueldot1;
+
+                    s1ISS = sueldot1 * 0.0525;
+                    s1AFP = sueldot1 * 0.0688;
+                    s1RENTA = sueldot1 * 0.1;
+
+                    sueldot1 = sueldot1 - s1AFP - s1ISS - s1RENTA;
+
+                    MessageBox.Show("El sueldo de " + txtnombre1.Text + " " + txtapellido1.Text + " es: " + sueldot1);
+
+                }
+
+                else
+                {
+
+                    sueldo1 = 9.75 * horast1;
+                    sueldot1 = (sueldo1 * 0.1) + sueldo1;
+
+                    s1ISS = sueldot1 * 0.0525;
+                    s1AFP = sueldot1 * 0.0688;
+                    s1RENTA = sueldot1 * 0.1;
+
+                    sueldot1 = sueldot1 - s1AFP - s1ISS - s1RENTA;
+
+                    MessageBox.Show("El sueldo de " + txtnombre1.Text + " " + txtapellido1.Text + " es: " + sueldot1);
+                }
+            }
+
+            //Asistente
+            if( cargo1 == "Asistente")
+            {
+                if (horast1 > 160)
+                {
+                    sueldo1 = horast1 - 160;
+                    sueldot1 = 160 * 9.75 + (sueldo1 * 11.50);
+                    sueldot1 = (sueldot1 * 0.05) + sueldot1;
+
+                    s1ISS = sueldot1 * 0.0525;
+                    s1AFP = sueldot1 * 0.0688;
+                    s1RENTA = sueldot1 * 0.1;
+
+                    sueldot1 = sueldot1 - s1AFP - s1ISS - s1RENTA;
+
+                    MessageBox.Show("El sueldo de " + txtnombre1.Text + " " + txtapellido1.Text + " es: " + sueldot1);
+
+                }
+
+                else
+                {
+
+                    sueldo1 = horast1 * 1 * 9.75;
+                    sueldot1 =  sueldo1 + (sueldo1 * 0.05);
+
+                    s1ISS = sueldot1 * 0.0525;
+                    s1AFP = sueldot1 * 0.0688;
+                    s1RENTA = sueldot1 * 0.1;
+
+                    sueldot1 = sueldot1 - s1AFP - s1ISS - s1RENTA;
+
+                    MessageBox.Show("El sueldo de " + txtnombre1.Text + " " + txtapellido1.Text + " es: " + sueldot1);
+                }
             }
             
-            
+            //Secretaria/o
+           if( cargo1 == "Secretaria/o")
+           {
+                if (horast1 > 160)
+                {
+                    sueldo1 = horast1 - 160;
+                    sueldot1 = 160 * 9.75 + (sueldo1 * 11.50);
+                    sueldot1 = (sueldot1 * 0.03) + sueldot1;
+
+                    s1ISS = sueldot1 * 0.0525;
+                    s1AFP = sueldot1 * 0.0688;
+                    s1RENTA = sueldot1 * 0.1;
+
+                    sueldot1 = sueldot1 - s1AFP - s1ISS - s1RENTA;
+
+                    MessageBox.Show("El sueldo de " + txtnombre1.Text + " " + txtapellido1.Text + " es: " + sueldot1);
+
+                }
+
+                else
+                {
+
+                    sueldo1 = horast1 * 1 * 9.75;
+                    sueldot1 = sueldo1 + (sueldo1 * 0.03);
+
+                    s1ISS = sueldot1 * 0.0525;
+                    s1AFP = sueldot1 * 0.0688;
+                    s1RENTA = sueldot1 * 0.1;
+
+                    sueldot1 = sueldot1 - s1AFP - s1ISS - s1RENTA;
+
+                    MessageBox.Show("El sueldo de " + txtnombre1.Text + " " + txtapellido1.Text + " es: " + sueldot1);
+                }
+
+
+           }
+
+           //Si posee otro cargo
+           if( cargo1 == "Otros")
+           {
+
+                if (horast1 > 160)
+                {
+                    sueldo1 = horast1 - 160;
+                    sueldot1 = 160 * 9.75 + (sueldo1 * 11.50);
+                    sueldot1 = (sueldot1 * 0.02) + sueldot1;
+
+                    s1ISS = sueldot1 * 0.0525;
+                    s1AFP = sueldot1 * 0.0688;
+                    s1RENTA = sueldot1 * 0.1;
+
+                    sueldot1 = sueldot1 - s1AFP - s1ISS - s1RENTA;
+
+                    MessageBox.Show("El sueldo de " + txtnombre1.Text + " " + txtapellido1.Text + " es: " + sueldot1);
+
+                }
+
+                else
+                {
+
+                    sueldo1 = horast1 * 1 * 9.75;
+                    sueldot1 = sueldo1 + (sueldo1 * 0.02);
+
+                    s1ISS = sueldot1 * 0.0525;
+                    s1AFP = sueldot1 * 0.0688;
+                    s1RENTA = sueldot1 * 0.1;
+
+                    sueldot1 = sueldot1 - s1AFP - s1ISS - s1RENTA;
+
+                    MessageBox.Show("El sueldo de " + txtnombre1.Text + " " + txtapellido1.Text + " es: " + sueldot1);
+                }
+
+            }
+
+
+
+
+
 
         }
     }

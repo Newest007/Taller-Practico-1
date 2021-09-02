@@ -59,6 +59,7 @@ namespace Taller_Practico_1
             this.txthoras2 = new System.Windows.Forms.TextBox();
             this.txthoras3 = new System.Windows.Forms.TextBox();
             this.btncalcular = new System.Windows.Forms.Button();
+            this.txtrespuesta = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -364,11 +365,20 @@ namespace Taller_Practico_1
             this.btncalcular.UseVisualStyleBackColor = false;
             this.btncalcular.Click += new System.EventHandler(this.btncalcular_Click);
             // 
+            // txtrespuesta
+            // 
+            this.txtrespuesta.Location = new System.Drawing.Point(690, 35);
+            this.txtrespuesta.Name = "txtrespuesta";
+            this.txtrespuesta.Size = new System.Drawing.Size(115, 20);
+            this.txtrespuesta.TabIndex = 34;
+            this.txtrespuesta.Visible = false;
+            // 
             // frmejercicio4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(931, 426);
+            this.Controls.Add(this.txtrespuesta);
             this.Controls.Add(this.btncalcular);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -422,5 +432,6 @@ namespace Taller_Practico_1
         private System.Windows.Forms.TextBox txthoras3;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button btncalcular;
+        private System.Windows.Forms.TextBox txtrespuesta;
     }
 }
