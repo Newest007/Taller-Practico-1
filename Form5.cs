@@ -53,7 +53,8 @@ namespace Taller_Practico_1
             horast1 = Convert.ToInt32(txthoras1.Text);
             horast2 = Convert.ToInt32(txthoras2.Text);
             horast3 = Convert.ToInt32(txthoras3.Text);
-
+            //Si se da error en esta parte se debe a que debe de llenar todos los textbox de las
+            //Horas trabajadas en el mes para evitar este error
 
             cargo1 = Convert.ToString(cmbcargo1.Text);
             cargo2 = Convert.ToString(cmbcargo2.Text);

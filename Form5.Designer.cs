@@ -81,12 +81,12 @@ namespace Taller_Practico_1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(340, 27);
+            this.label1.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(290, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(244, 28);
+            this.label1.Size = new System.Drawing.Size(314, 33);
             this.label1.TabIndex = 17;
-            this.label1.Text = "Pago líquido de un empleado";
+            this.label1.Text = "Pago líquido de tres empleados";
             // 
             // groupBox1
             // 
