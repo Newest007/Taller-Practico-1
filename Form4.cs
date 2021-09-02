@@ -31,7 +31,7 @@ namespace Taller_Practico_1
 
         private void btncalcular_Click(object sender, EventArgs e)
         {
-            int num1, num2, num3, num4, sum, may, men;
+            int num1, num2, num3, num4, sum, may, men, maysum, mensum;
 
             num1 = Convert.ToInt16(txtboxnum1.Text);
             num2 = Convert.ToInt16(txtboxnum2.Text);
@@ -39,7 +39,7 @@ namespace Taller_Practico_1
             num4 = Convert.ToInt16(txtboxnum4.Text);
 
             //Hacemos la restricción que los numeros tiene que ser positivos y mayores a 0
-            if (num1 > 0 && num2 > 0 && num3 > 0 && num4 > 0 )
+            if (num1 > 0 && num2 > 0 && num3 > 0 && num4 > 0)
             {
                 //Hacemos la sumatoria de los numeros
                 sum = num1 + num2 + num3 + num4;
@@ -56,30 +56,116 @@ namespace Taller_Practico_1
                 }
                 else
                 {
-                    if (num1 >= num2 && num1 >= num3 && num1>= num4)
+                    if (num1 >= num2 && num1 >= num3 && num1 >= num4)
                     {
                         may = num1;
+                        maysum = may + 10;
+
                         if (num2 >= num3 && num2 >= num4)
                         {
                             if (num3 >= num4)
                             {
                                 men = num4;
+                                mensum = men - 5;
                                 if (men > 10)
                                 {
                                     if (may < 50)
                                     {
-                                        MessageBox.Show("El numero mayor es: " + Convert.ToString(may + 10) + " y el número menor es: " + Convert.ToString(men - 5));
+                                        //MessageBox.Show("El numero mayor es: " + maysum.ToString() + " y el número menor es: " + mensum.ToString());
+                                        txtboxmay.Text = maysum.ToString();
+                                        txtboxmen.Text = mensum.ToString();
+                                        txtboxnum1.Clear();
+                                        txtboxnum2.Clear();
+                                        txtboxnum3.Clear();
+                                        txtboxnum4.Clear();
+                                    }
+                                    else
+                                    {
+                                        //MessageBox.Show("El numero mayor es: " + maysum.ToString() + " y el número menor es: " + men.ToString());
+                                        txtboxmay.Text = maysum.ToString();
+                                        txtboxmen.Text = men.ToString();
+                                        txtboxnum1.Clear();
+                                        txtboxnum2.Clear();
+                                        txtboxnum3.Clear();
+                                        txtboxnum4.Clear();
+
+                                    }
+                                }
+                                else
+                                {
+                                    if (may < 50)
+                                    {
+                                        //MessageBox.Show("El numero mayor es: " + may.ToString() + " y el número menor es: " + mensum.ToString() );
+                                        txtboxmay.Text = may.ToString();
+                                        txtboxmen.Text = mensum.ToString();
+                                        txtboxnum1.Clear();
+                                        txtboxnum2.Clear();
+                                        txtboxnum3.Clear();
+                                        txtboxnum4.Clear();
+
+                                    }
+                                    else
+                                    {
+                                        //MessageBox.Show("El numero mayor es: " + may.ToString() + " y el número menor es: " + men.ToString() );
+                                        txtboxmay.Text = may.ToString();
+                                        txtboxmen.Text = men.ToString();
+                                        txtboxnum1.Clear();
+                                        txtboxnum2.Clear();
+                                        txtboxnum3.Clear();
+                                        txtboxnum4.Clear();
                                     }
                                 }
                             }
                             else
                             {
                                 men = num3;
+                                mensum = men - 5; 
                                 if (men > 10)
                                 {
                                     if (may < 50)
                                     {
-                                        MessageBox.Show("El numero mayor es: " + Convert.ToString(may + 10) + " y el número menor es: " + Convert.ToString(men - 5));
+                                        //MessageBox.Show("El numero mayor es: " + maysum.ToString() + " y el número menor es: " + mensum.ToString());
+                                        txtboxmay.Text = maysum.ToString();
+                                        txtboxmen.Text = mensum.ToString();
+                                        txtboxnum1.Clear();
+                                        txtboxnum2.Clear();
+                                        txtboxnum3.Clear();
+                                        txtboxnum4.Clear();
+                                    }
+                                    else
+                                    {
+                                        //MessageBox.Show("El numero mayor es: " + maysum.ToString() + " y el número menor es: " + men.ToString());
+                                        txtboxmay.Text = maysum.ToString();
+                                        txtboxmen.Text = men.ToString();
+                                        txtboxnum1.Clear();
+                                        txtboxnum2.Clear();
+                                        txtboxnum3.Clear();
+                                        txtboxnum4.Clear();
+                                    }
+                                }
+                                else
+                                {
+                                    if (may< 50)
+                                    {
+                                        //MessageBox.Show("El numero mayor es: " + may.ToString() + " y el número menor es: " + mensum.ToString());
+                                        txtboxmay.Text = may.ToString();
+                                        txtboxmen.Text = mensum.ToString();
+                                        txtboxnum1.Clear();
+                                        txtboxnum2.Clear();
+                                        txtboxnum3.Clear();
+                                        txtboxnum4.Clear();
+
+                                    }
+                                    else
+                                    {
+                                        //MessageBox.Show("El numero mayor es: " + may.ToString() + " y el número menor es: " + men.ToString());
+                                        txtboxmay.Text = may.ToString();
+                                        txtboxmen.Text = men.ToString();
+                                        txtboxnum1.Clear();
+                                        txtboxnum2.Clear();
+                                        txtboxnum3.Clear();
+                                        txtboxnum4.Clear();
+
                                     }
                                 }
                             }
@@ -87,32 +173,167 @@ namespace Taller_Practico_1
                         else
                         {
                             men = num2;
+                            mensum = men - 5;
+                            if (men > 10)
+                            {
+                                if (may < 50)
+                                {
+                                    //MessageBox.Show("El numero mayor es: " + maysum.ToString() + " y el número menor es: " + mensum.ToString());
+                                    txtboxmay.Text = maysum.ToString();
+                                    txtboxmen.Text = mensum.ToString();
+                                    txtboxnum1.Clear();
+                                    txtboxnum2.Clear();
+                                    txtboxnum3.Clear();
+                                    txtboxnum4.Clear();
+                                }
+                                else
+                                {
+                                    //MessageBox.Show("El numero mayor es: " + maysum.ToString() + " y el número menor es: " + men.ToString());
+                                    txtboxmay.Text = maysum.ToString();
+                                    txtboxmen.Text = men.ToString();
+                                    txtboxnum1.Clear();
+                                    txtboxnum2.Clear();
+                                    txtboxnum3.Clear();
+                                    txtboxnum4.Clear();
+
+                                }
+                            }
+                            else
+                            {
+                                if (may < 50)
+                                {
+                                    //MessageBox.Show("El numero mayor es: " + may.ToString() + " y el número menor es: " + mensum.ToString());
+                                    txtboxmay.Text = may.ToString();
+                                    txtboxmen.Text = mensum.ToString();
+                                    txtboxnum1.Clear();
+                                    txtboxnum2.Clear();
+                                    txtboxnum3.Clear();
+                                    txtboxnum4.Clear();
+
+                                }
+                                else
+                                {
+                                    //MessageBox.Show("El numero mayor es: " + may.ToString() + " y el número menor es: " + men.ToString());
+                                    txtboxmay.Text = may.ToString();
+                                    txtboxmen.Text = men.ToString();
+                                    txtboxnum1.Clear();
+                                    txtboxnum2.Clear();
+                                    txtboxnum3.Clear();
+                                    txtboxnum4.Clear();
+                                }
+                            }
                         }
                     }
+
                     else
                     {
                         men = num1;
+                        mensum = men - 5;
                         if (num2 <= num3 && num2 <= num4)
                         {
                             if (num3 <= num4)
                             {
                                 may = num4;
+                                maysum = may + 10;
                                 if (men > 10)
                                 {
                                     if (may < 50)
                                     {
-                                        MessageBox.Show("El numero mayor es: " + Convert.ToString(may + 10) + " y el número menor es: " + Convert.ToString(men - 5));
+                                        //MessageBox.Show("El numero mayor es: " + maysum.ToString() + " y el número menor es: " + mensum.ToString());
+                                        txtboxmay.Text = maysum.ToString();
+                                        txtboxmen.Text = mensum.ToString();
+                                        txtboxnum1.Clear();
+                                        txtboxnum2.Clear();
+                                        txtboxnum3.Clear();
+                                        txtboxnum4.Clear();
+                                    }
+                                    else
+                                    {
+                                        //MessageBox.Show("El numero mayor es: " + maysum.ToString() + " y el número menor es: " + men.ToString());
+                                        txtboxmay.Text = maysum.ToString();
+                                        txtboxmen.Text = men.ToString();
+                                        txtboxnum1.Clear();
+                                        txtboxnum2.Clear();
+                                        txtboxnum3.Clear();
+                                        txtboxnum4.Clear();
+
+                                    }
+                                }
+                                else
+                                {
+                                    if (may < 50)
+                                    {
+                                        //MessageBox.Show("El numero mayor es: " + may.ToString() + " y el número menor es: " + mensum.ToString());
+                                        txtboxmay.Text = may.ToString();
+                                        txtboxmen.Text = mensum.ToString();
+                                        txtboxnum1.Clear();
+                                        txtboxnum2.Clear();
+                                        txtboxnum3.Clear();
+                                        txtboxnum4.Clear();
+
+                                    }
+                                    else
+                                    {
+                                        //MessageBox.Show("El numero mayor es: " + may.ToString() + " y el número menor es: " + men.ToString());
+                                        txtboxmay.Text = may.ToString();
+                                        txtboxmen.Text = men.ToString();
+                                        txtboxnum1.Clear();
+                                        txtboxnum2.Clear();
+                                        txtboxnum3.Clear();
+                                        txtboxnum4.Clear();
                                     }
                                 }
                             }
                             else
                             {
                                 may = num3;
+                                maysum = may + 10;
                                 if (men > 10)
                                 {
                                     if (may < 50)
                                     {
-                                        MessageBox.Show("El numero mayor es: " + Convert.ToString(may + 10) + " y el número menor es: " + Convert.ToString(men - 5));
+                                        //MessageBox.Show("El numero mayor es: " + maysum.ToString() + " y el número menor es: " + mensum.ToString());
+                                        txtboxmay.Text = maysum.ToString();
+                                        txtboxmen.Text = mensum.ToString();
+                                        txtboxnum1.Clear();
+                                        txtboxnum2.Clear();
+                                        txtboxnum3.Clear();
+                                        txtboxnum4.Clear();
+                                    }
+                                    else
+                                    {
+                                        //MessageBox.Show("El numero mayor es: " + maysum.ToString() + " y el número menor es: " + men.ToString());
+                                        txtboxmay.Text = maysum.ToString();
+                                        txtboxmen.Text = men.ToString();
+                                        txtboxnum1.Clear();
+                                        txtboxnum2.Clear();
+                                        txtboxnum3.Clear();
+                                        txtboxnum4.Clear();
+
+                                    }
+                                }
+                                else
+                                {
+                                    if (may < 50)
+                                    {
+                                        //MessageBox.Show("El numero mayor es: " + may.ToString() + " y el número menor es: " + mensum.ToString());
+                                        txtboxmay.Text = may.ToString();
+                                        txtboxmen.Text = mensum.ToString();
+                                        txtboxnum1.Clear();
+                                        txtboxnum2.Clear();
+                                        txtboxnum3.Clear();
+                                        txtboxnum4.Clear();
+
+                                    }
+                                    else
+                                    {
+                                        //MessageBox.Show("El numero mayor es: " + may.ToString() + " y el número menor es: " + men.ToString());
+                                        txtboxmay.Text = may.ToString();
+                                        txtboxmen.Text = mensum.ToString();
+                                        txtboxnum1.Clear();
+                                        txtboxnum2.Clear();
+                                        txtboxnum3.Clear();
+                                        txtboxnum4.Clear();
                                     }
                                 }
                             }
@@ -120,11 +341,53 @@ namespace Taller_Practico_1
                         else
                         {
                             may = num2;
+                            maysum = may + 10;
                             if (men > 10)
                             {
                                 if (may < 50)
                                 {
-                                    MessageBox.Show("El numero mayor es: " + Convert.ToString(may + 10) + " y el número menor es: " + Convert.ToString(men - 5));
+                                    //MessageBox.Show("El numero mayor es: " + maysum.ToString() + " y el número menor es: " + mensum.ToString());
+                                    txtboxmay.Text = maysum.ToString();
+                                    txtboxmen.Text = mensum.ToString();
+                                    txtboxnum1.Clear();
+                                    txtboxnum2.Clear();
+                                    txtboxnum3.Clear();
+                                    txtboxnum4.Clear();
+                                }
+                                else
+                                {
+                                    //MessageBox.Show("El numero mayor es: " + maysum.ToString() + " y el número menor es: " + men.ToString());
+                                    txtboxmay.Text = maysum.ToString();
+                                    txtboxmen.Text = men.ToString();
+                                    txtboxnum1.Clear();
+                                    txtboxnum2.Clear();
+                                    txtboxnum3.Clear();
+                                    txtboxnum4.Clear();
+
+                                }
+                            }
+                            else
+                            {
+                                if (may < 50)
+                                {
+                                    //MessageBox.Show("El numero mayor es: " + may.ToString() + " y el número menor es: " + mensum.ToString());
+                                    txtboxmay.Text = may.ToString();
+                                    txtboxmen.Text = mensum.ToString();
+                                    txtboxnum1.Clear();
+                                    txtboxnum2.Clear();
+                                    txtboxnum3.Clear();
+                                    txtboxnum4.Clear();
+
+                                }
+                                else
+                                {
+                                    //MessageBox.Show("El numero mayor es: " + may.ToString() + " y el número menor es: " + men.ToString());
+                                    txtboxmay.Text = may.ToString();
+                                    txtboxmen.Text = men.ToString();
+                                    txtboxnum1.Clear();
+                                    txtboxnum2.Clear();
+                                    txtboxnum3.Clear();
+                                    txtboxnum4.Clear();
                                 }
                             }
                         }
@@ -142,6 +405,11 @@ namespace Taller_Practico_1
                 txtboxnum4.Clear();
             }
 
+
         }
     }
-}
+        } 
+
+
+
+

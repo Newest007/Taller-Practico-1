@@ -43,8 +43,8 @@ namespace Taller_Practico_1
             this.btncalcular = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtboxmay = new System.Windows.Forms.TextBox();
+            this.txtboxmen = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -178,24 +178,24 @@ namespace Taller_Practico_1
             this.label8.TabIndex = 28;
             this.label8.Text = "Número Menor";
             // 
-            // textBox1
+            // txtboxmay
             // 
-            this.textBox1.Location = new System.Drawing.Point(97, 64);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 29;
+            this.txtboxmay.Location = new System.Drawing.Point(97, 64);
+            this.txtboxmay.Name = "txtboxmay";
+            this.txtboxmay.Size = new System.Drawing.Size(100, 20);
+            this.txtboxmay.TabIndex = 29;
             // 
-            // textBox2
+            // txtboxmen
             // 
-            this.textBox2.Location = new System.Drawing.Point(360, 64);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 30;
+            this.txtboxmen.Location = new System.Drawing.Point(360, 64);
+            this.txtboxmen.Name = "txtboxmen";
+            this.txtboxmen.Size = new System.Drawing.Size(100, 20);
+            this.txtboxmen.TabIndex = 30;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtboxmen);
+            this.groupBox1.Controls.Add(this.txtboxmay);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Location = new System.Drawing.Point(44, 150);
             this.groupBox1.Name = "groupBox1";
@@ -249,8 +249,8 @@ namespace Taller_Practico_1
         private System.Windows.Forms.Button btncalcular;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtboxmay;
+        private System.Windows.Forms.TextBox txtboxmen;
         private System.Windows.Forms.GroupBox groupBox1;
     }
 }
