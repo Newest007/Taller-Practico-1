@@ -1,0 +1,52 @@
+C:\Users\Pablo\Downloads\Taller-Practico-1-master\Taller-Practico-1-master\bin\Debug\Taller Practico 1.exe.config
+C:\Users\Pablo\Downloads\Taller-Practico-1-master\Taller-Practico-1-master\bin\Debug\Taller Practico 1.exe
+C:\Users\Pablo\Downloads\Taller-Practico-1-master\Taller-Practico-1-master\bin\Debug\Taller Practico 1.pdb
+C:\Users\Pablo\Downloads\Taller-Practico-1-master\Taller-Practico-1-master\obj\Debug\Taller Practico 1.csprojResolveAssemblyReference.cache
+C:\Users\Pablo\Downloads\Taller-Practico-1-master\Taller-Practico-1-master\obj\Debug\Taller_Practico_1.frminicial.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-master\Taller-Practico-1-master\obj\Debug\Taller_Practico_1.frmejercicio1.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-master\Taller-Practico-1-master\obj\Debug\Taller_Practico_1.frmejercicio2.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-master\Taller-Practico-1-master\obj\Debug\Taller_Practico_1.frmejercicio3.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-master\Taller-Practico-1-master\obj\Debug\Taller_Practico_1.frmejercicio4.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-master\Taller-Practico-1-master\obj\Debug\Taller_Practico_1.Properties.Resources.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-master\Taller-Practico-1-master\obj\Debug\Taller Practico 1.csproj.GenerateResource.Cache
+C:\Users\Pablo\Downloads\Taller-Practico-1-master\Taller-Practico-1-master\obj\Debug\Taller Practico 1.exe
+C:\Users\Pablo\Downloads\Taller-Practico-1-master\Taller-Practico-1-master\obj\Debug\Taller Practico 1.pdb
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3-variable y diseño\Taller-Practico-1-master\bin\Debug\Taller Practico 1.exe.config
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3-variable y diseño\Taller-Practico-1-master\obj\Debug\Taller Practico 1.exe
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3-variable y diseño\Taller-Practico-1-master\obj\Debug\Taller Practico 1.pdb
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3-variable y diseño\Taller-Practico-1-master\bin\Debug\Taller Practico 1.exe
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3-variable y diseño\Taller-Practico-1-master\bin\Debug\Taller Practico 1.pdb
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3-variable y diseño\Taller-Practico-1-master\obj\Debug\Taller Practico 1.csprojResolveAssemblyReference.cache
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3-variable y diseño\Taller-Practico-1-master\obj\Debug\Taller_Practico_1.frminicial.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3-variable y diseño\Taller-Practico-1-master\obj\Debug\Taller_Practico_1.frmejercicio1.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3-variable y diseño\Taller-Practico-1-master\obj\Debug\Taller_Practico_1.frmejercicio2.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3-variable y diseño\Taller-Practico-1-master\obj\Debug\Taller_Practico_1.frmejercicio3.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3-variable y diseño\Taller-Practico-1-master\obj\Debug\Taller_Practico_1.frmejercicio4.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3-variable y diseño\Taller-Practico-1-master\obj\Debug\Taller_Practico_1.Properties.Resources.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3-variable y diseño\Taller-Practico-1-master\obj\Debug\Taller Practico 1.csproj.GenerateResource.Cache
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-master\bin\Debug\Taller Practico 1.exe.config
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-master\obj\Debug\Taller Practico 1.exe
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-master\obj\Debug\Taller Practico 1.pdb
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-master\obj\Debug\Taller Practico 1.csprojResolveAssemblyReference.cache
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-master\obj\Debug\Taller_Practico_1.frminicial.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-master\obj\Debug\Taller_Practico_1.frmejercicio1.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-master\obj\Debug\Taller_Practico_1.frmejercicio2.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-master\obj\Debug\Taller_Practico_1.frmejercicio3.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-master\obj\Debug\Taller_Practico_1.frmejercicio4.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-master\obj\Debug\Taller_Practico_1.Properties.Resources.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-master\obj\Debug\Taller Practico 1.csproj.GenerateResource.Cache
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-master\bin\Debug\Taller Practico 1.exe
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-master\bin\Debug\Taller Practico 1.pdb
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-Ejercicio3_COMPLETO\bin\Debug\Taller Practico 1.exe.config
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-Ejercicio3_COMPLETO\obj\Debug\Taller Practico 1.exe
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-Ejercicio3_COMPLETO\obj\Debug\Taller Practico 1.pdb
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-Ejercicio3_COMPLETO\bin\Debug\Taller Practico 1.exe
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-Ejercicio3_COMPLETO\bin\Debug\Taller Practico 1.pdb
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-Ejercicio3_COMPLETO\obj\Debug\Taller Practico 1.csprojResolveAssemblyReference.cache
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-Ejercicio3_COMPLETO\obj\Debug\Taller_Practico_1.frminicial.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-Ejercicio3_COMPLETO\obj\Debug\Taller_Practico_1.frmejercicio1.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-Ejercicio3_COMPLETO\obj\Debug\Taller_Practico_1.frmejercicio2.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-Ejercicio3_COMPLETO\obj\Debug\Taller_Practico_1.frmejercicio3.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-Ejercicio3_COMPLETO\obj\Debug\Taller_Practico_1.frmejercicio4.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-Ejercicio3_COMPLETO\obj\Debug\Taller_Practico_1.Properties.Resources.resources
+C:\Users\Pablo\Downloads\Taller-Practico-1-Ejercicio 3 no da el resultado\Taller-Practico-1-Ejercicio3_COMPLETO\obj\Debug\Taller Practico 1.csproj.GenerateResource.Cache
