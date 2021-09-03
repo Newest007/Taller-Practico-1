@@ -155,7 +155,7 @@ namespace Taller_Practico_1
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ClientSize = new System.Drawing.Size(555, 367);
+            this.ClientSize = new System.Drawing.Size(545, 367);
             this.Controls.Add(this.btnsalir);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
