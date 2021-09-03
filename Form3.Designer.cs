@@ -39,6 +39,7 @@ namespace Taller_Practico_1
             this.label4 = new System.Windows.Forms.Label();
             this.txtvotar = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnregresar
@@ -64,6 +65,7 @@ namespace Taller_Practico_1
             this.btnresultados.TabIndex = 16;
             this.btnresultados.Text = "Ver resultados";
             this.btnresultados.UseVisualStyleBackColor = true;
+            this.btnresultados.Click += new System.EventHandler(this.btnresultados_Click_1);
             // 
             // cmbox
             // 
@@ -142,11 +144,23 @@ namespace Taller_Practico_1
             this.label5.TabIndex = 24;
             this.label5.Text = "Sistema de Votación";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe Print", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(44, 235);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(474, 19);
+            this.label6.TabIndex = 25;
+            this.label6.Text = "A la hora de ingresar datos en el txtbox se hace de la siguiente manera: 1,2,3,1," +
+    "2,3";
+            // 
             // frmejercicio2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(563, 343);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtvotar);
             this.Controls.Add(this.label4);
@@ -178,5 +192,6 @@ namespace Taller_Practico_1
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtvotar;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }
