@@ -66,18 +66,20 @@ namespace Taller_Practico_1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(41, 97);
+            this.label1.Font = new System.Drawing.Font("Segoe Print", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(33, 95);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 13);
+            this.label1.Size = new System.Drawing.Size(66, 19);
             this.label1.TabIndex = 17;
             this.label1.Text = "Número 1";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(157, 97);
+            this.label2.Font = new System.Drawing.Font("Segoe Print", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(149, 95);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 13);
+            this.label2.Size = new System.Drawing.Size(66, 19);
             this.label2.TabIndex = 18;
             this.label2.Text = "Número 2";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -85,28 +87,30 @@ namespace Taller_Practico_1
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(274, 97);
+            this.label3.Font = new System.Drawing.Font("Segoe Print", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(265, 95);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 13);
+            this.label3.Size = new System.Drawing.Size(66, 19);
             this.label3.TabIndex = 19;
             this.label3.Text = "Número 3";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(394, 97);
+            this.label4.Font = new System.Drawing.Font("Segoe Print", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(386, 95);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 13);
+            this.label4.Size = new System.Drawing.Size(66, 19);
             this.label4.TabIndex = 20;
             this.label4.Text = "Número 4";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(204, 26);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(225, 20);
+            this.label5.Size = new System.Drawing.Size(247, 28);
             this.label5.TabIndex = 21;
             this.label5.Text = "CALCULO MAYOR Y MENOR";
             // 
@@ -141,9 +145,10 @@ namespace Taller_Practico_1
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe Print", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(41, 64);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(104, 13);
+            this.label6.Size = new System.Drawing.Size(121, 19);
             this.label6.TabIndex = 26;
             this.label6.Text = "Ingrese los números:";
             // 
@@ -163,40 +168,43 @@ namespace Taller_Practico_1
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(59, 214);
+            this.label7.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(9, 68);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(76, 13);
+            this.label7.Size = new System.Drawing.Size(101, 21);
             this.label7.TabIndex = 27;
             this.label7.Text = "Número Mayor";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(277, 67);
+            this.label8.Location = new System.Drawing.Point(256, 67);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(77, 13);
+            this.label8.Size = new System.Drawing.Size(101, 21);
             this.label8.TabIndex = 28;
             this.label8.Text = "Número Menor";
             // 
             // txtboxmay
             // 
-            this.txtboxmay.Location = new System.Drawing.Point(97, 64);
+            this.txtboxmay.Location = new System.Drawing.Point(113, 64);
             this.txtboxmay.Name = "txtboxmay";
-            this.txtboxmay.Size = new System.Drawing.Size(100, 20);
+            this.txtboxmay.Size = new System.Drawing.Size(100, 29);
             this.txtboxmay.TabIndex = 29;
             // 
             // txtboxmen
             // 
             this.txtboxmen.Location = new System.Drawing.Point(360, 64);
             this.txtboxmen.Name = "txtboxmen";
-            this.txtboxmen.Size = new System.Drawing.Size(100, 20);
+            this.txtboxmen.Size = new System.Drawing.Size(100, 29);
             this.txtboxmen.TabIndex = 30;
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.txtboxmen);
             this.groupBox1.Controls.Add(this.txtboxmay);
             this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(44, 150);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(541, 145);
@@ -209,7 +217,6 @@ namespace Taller_Practico_1
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(611, 356);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.btncalcular);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtboxnum4);
