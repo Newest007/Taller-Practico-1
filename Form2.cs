@@ -19,7 +19,7 @@ namespace Taller_Practico_1
 
         private void btnejercicio1_Click(object sender, EventArgs e)
         {
-            Form frmprincipal = new frminicial();
+            Form frmprincipal = new frmprincipal();
             this.Close();
             frmprincipal.Visible = true;
         }

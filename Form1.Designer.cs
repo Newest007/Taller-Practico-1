@@ -1,7 +1,7 @@
 ﻿
 namespace Taller_Practico_1
 {
-    partial class frminicial
+    partial class frmprincipal
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -130,11 +130,11 @@ namespace Taller_Practico_1
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(190, 122);
+            this.label4.Location = new System.Drawing.Point(143, 121);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(174, 23);
+            this.label4.Size = new System.Drawing.Size(256, 23);
             this.label4.TabIndex = 18;
-            this.label4.Text = "Luís Pablo Velasco Flores";
+            this.label4.Text = "Luís Pablo Velasco Flores VF202313";
             // 
             // btnsalir
             // 
@@ -150,7 +150,7 @@ namespace Taller_Practico_1
             this.btnsalir.UseVisualStyleBackColor = false;
             this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
             // 
-            // frminicial
+            // frmprincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -165,7 +165,7 @@ namespace Taller_Practico_1
             this.Controls.Add(this.btnejercicio1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "frminicial";
+            this.Name = "frmprincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Taller Practico 1";
             this.ResumeLayout(false);

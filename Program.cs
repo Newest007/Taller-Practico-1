@@ -16,7 +16,7 @@ namespace Taller_Practico_1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frminicial());
+            Application.Run(new frmprincipal());
         }
     }
 }

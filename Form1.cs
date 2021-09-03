@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Taller_Practico_1
 {
-    public partial class frminicial : Form
+    public partial class frmprincipal : Form
     {
-        public frminicial()
+        public frmprincipal()
         {
             InitializeComponent();
         }
