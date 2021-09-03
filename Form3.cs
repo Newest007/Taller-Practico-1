@@ -23,21 +23,5 @@ namespace Taller_Practico_1
             this.Close();
             frmprincipal.Visible = true;
         }
-
-        private void frmejercicio2_Load(object sender, EventArgs e)
-        {
-            //Agregamos las opciones al combo
-            cmbox.Items.Clear();
-            cmbox.Items.Add("Candidato nº1");
-            cmbox.Items.Add("Candidato nº2");
-            cmbox.Items.Add("Candidato nº3");
-            cmbox.Items.Add("Candidato nº4");
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
